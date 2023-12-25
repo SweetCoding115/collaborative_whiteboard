@@ -1,0 +1,19 @@
+{
+  "name": "collaborative_whiteboard",
+  "version": "1.0.0",
+  "description": "this is a socket io collaborative whiteboard app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run server --prefix backend",
+    "server": "npm run server --prefix backend",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Who and me",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.2"
+  }
+}
