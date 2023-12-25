@@ -9,18 +9,23 @@
 
 ### Installation
 
-To run the frontend, navigate to the `frontend` directory and execute the following commands:
+To install the dependencies of the frontend, navigate to the `frontend` directory and execute the following commands:
 
 ```bash
 cd client
 npm install
-npm run dev
 ```
 
-To run the frontend, navigate to the `backend` directory and execute the following commands:
+To install the dependencies of the backend, navigate to the `backend` directory and execute the following commands:
 
 ```bash
 cd backend
 npm install
-node index.js
+```
+
+To run the project, in the root directory and execute the following commands:
+
+```bash
+npm install
+npm run dev
 ```
